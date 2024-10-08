@@ -1,0 +1,205 @@
+body{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your-image-url.jpg');
+    margin: 0%;
+    padding: 0%;
+    background-size: contain;
+    background-image: url(zgeTuV.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    height: 100px;
+    overflow-x: hidden;
+}
+#logo{
+    display: inline;
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.container{
+    position: relative;
+}
+#button{
+    display: flex;
+    justify-content:right;
+    position: relative;
+    right: 30px;
+    bottom: 40px;
+}
+#select{
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.select{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 190px;
+    bottom: 40px;
+}
+.button1{
+    text-align: center;
+    height: 35px;
+    width: 70px;
+    position: relative;
+    top: 55px;
+    right: 80px;
+    border: none;
+    background-color:#e50913;
+    color: white;
+    border-radius:7px;
+    padding: 12px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+select
+{
+    padding: 10px;
+    position: relative;
+    top: 55px; 
+    background-color: transparent;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-weight: 500;
+}
+option{
+    color: black;
+    text-align: center;
+}
+option:hover{
+    color: white;
+    background-color: gray;
+}
+.text{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+#text
+{
+    color: white;
+    white-space: normal;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    white-space: normal;
+    text-align: center;
+    line-height: 18px;
+}
+h1{
+    font-size: 50px;
+    font-weight:700;
+}
+.inputBox{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+}
+input{
+    border: gray 1px solid;
+    background-color: transparent;
+    padding: 15px;
+    font-size: medium;
+    color: darkgray;
+    border-radius: 3px;
+}
+input::-webkit-input-placeholder{
+    color: darkgrey;
+}
+#button2{
+    position: relative;
+    left: 10px;
+    padding: 15px;
+    background-color: #e50913;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 130px;
+    font-size: 17px;
+}
+.tranding{
+   
+    border-top: solid #cd1940 2px;
+    width: 100vw;
+    height: 1000px;
+    color:white;
+    position: relative;
+    bottom: 150px; 
+    background:linear-gradient(to bottom , #121c40 10%,#010306 100%);
+}
+h2{
+    font-size:25px;
+    position: relative;
+    left: 120px;
+    font-weight: 400;
+}
+#trandingselect{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    text-align:center ;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+.images img{
+    height: 300px;
+    width: 250px;
+    border-radius:20px;
+    transition: transform 0.2s;
+}
+.images img:hover{
+    transform: scale(1.2);
+}
+.more{
+    color:white ;
+    position: relative;
+    bottom: 550px;
+    left: 170px;
+    font-weight: 400;
+    font-size:25px;
+    display: flex;
+    justify-content:space-around;
+}
+.more div{
+    height:300px;
+    width:300px;
+    background: linear-gradient(to top left,#192144,#201120);
+    position: relative;
+    top: 50px;
+    right: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    row-gap:20px;
+    
+}
+
+
+
