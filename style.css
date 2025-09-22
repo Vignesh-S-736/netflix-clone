@@ -61,7 +61,7 @@ option {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url('background_image.jpg') center/cover no-repeat;
+    url('/background_image.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,3 +174,4 @@ input {
   font-size: 0.95rem;
   color: #ccc;
 }
+
